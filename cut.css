@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f6fa;
+}
+
+.header {
+  background: url('https://images.unsplash.com/photo-1492724441997-5dc865305da7');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  background: white;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h3, h4 {
+  margin-top: 20px;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.upload-box {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4b7bec;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #3867d6;
+}
+

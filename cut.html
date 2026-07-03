@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Application</title>
+  <link rel="stylesheet" href="cut.css">
+  
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h2>Business Devlopment</h2>
+    <p>ASM Indias Pvt. Ltd | Pune , India</p>
+  </div>
+
+  <!-- Form Container -->
+  <div class="container">
+    
+    <h3>Apply Now</h3>
+
+    <!-- Resume Upload -->
+    <div class="upload-box">
+      <input type="file" id="resume">
+      <p>Upload your resume (.doc, .pdf)</p>
+    </div>
+
+    <!-- Basic Info -->
+    <h4>Basic Info</h4>
+    <div class="form-group">
+      <input type="text" placeholder="First Name" required>
+      <input type="text" placeholder="Last Name" required>
+    </div>
+
+    <div class="form-group">
+      <input type="text" placeholder="Mobile Number">
+      <input type="email" placeholder="Email">
+    </div>
+
+    <!-- Address -->
+    <h4>Address</h4>
+    <input type="text" placeholder="State / Province">
+
+    <!-- Professional Details -->
+    <h4>Professional Details</h4>
+    <input type="text" placeholder="Skills">
+
+    <select>
+      <option>Experience (Years)</option>
+      <option>Fresher</option>
+      <option>1 Year</option>
+      <option>2+ Years</option>
+    </select>
+
+    <input type="text" placeholder="Current Location">
+    <input type="text" placeholder="Preferred Location">
+
+    <select>
+      <option>Notice Period</option>
+      <option>Immediate</option>
+      <option>15 Days</option>
+      <option>30 Days</option>
+    </select>
+
+    <input type="number" placeholder="Current Salary">
+    <input type="number" placeholder="Expected Salary">
+
+    <!-- Submit -->
+    <button onclick="submitForm()">Apply Now</button>
+
+  </div>
+
+  <script src="cut.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+/* HERO SECTION */
+.hero {
+    background: url('https://images.unsplash.com/photo-1497366216548-37526070297c') no-repeat center/cover;
+    height: 320px;
+    position: relative;
+    color: #fff;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.65);
+    height: 100%;
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin: 10px 0;
+}
+
+.hero p {
+    opacity: 0.9;
+}
+
+/* BUTTONS */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.primary {
+    background: #4CAF50;
+    color: white;
+}
+
+.primary:hover {
+    background: #43a047;
+}
+
+.secondary {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.secondary:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.left, .right {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.left {
+    flex: 2;
+}
+
+.right {
+    flex: 1;
+}
+
+/* TEXT */
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #444;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* ALERT */
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    display: none;
+}
